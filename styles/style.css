@@ -1,0 +1,53 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(241, 237, 243);
+}
+
+nav, footer {
+    height: 85px;
+    background-color: rgb(201, 179, 211);
+    font-size: 17px;
+}
+
+.container-fluid > img {
+    height: 65px;
+}
+
+#carouselExampleCaptions {
+    background-color: rgb(161, 159, 161);
+}
+
+.carousel-item > div > p{
+    font-size: 13px;
+}
+
+span, .col > p:first-child, button {
+    font-weight: bold;
+}
+
+strong {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.col > img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div[class*="mt-5"] {
+    background: linear-gradient(to bottom, rgb(201, 179, 211) 0%, rgb(201, 179, 211) 25%, rgb(224, 206, 233) 25%, rgb(224, 206, 233) 100%);
+    border: 3px solid rgb(176, 144, 190);
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 10px 0px 3px 15px;
+}
+
+.accordion-item {
+    background-color:rgb(241, 237, 243);
+}
